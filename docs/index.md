@@ -18,7 +18,7 @@ provider "airdrop" {
   token = "some-token"
 }
 
-provider "bluechip" {}
+provider "airdrop_namespaceconfig" {}
 
 data "bluechip_oidc_credentials" "airdrop" {
   client_id = "airdrop.com"

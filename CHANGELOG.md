@@ -1,2 +1,2 @@
 ## Changelog   
-* f6a63828a8686d06122ce14e2c1ba15a8986f900 fix: downgrade go version
+* 3a478eeb709707545bcba13f75283d524d0cbb76 feat: airdrop_builder 리소스 추가
