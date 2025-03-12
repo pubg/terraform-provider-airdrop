@@ -13,24 +13,21 @@ description: |-
 ## Example Usage
 
 ```terraform
-resource "airdrop_builder" "current" {
+resource "airdrop_rolebinding" "current" {
   metadata {
-    name = "my-test"
-    namespace = "sprout"
+    name      = "my-test-binding"
+    namespace = "default"
   }
-  spec {
-    deploy_ref {
-      name = "sprout-poc-deploy"
-    }
-    delete_ref {
-      name = "sprout-poc-delete"
-    }
-    status_ref {
-      name = "sprout-poc-status"
-    }
-    variables_ref {
-      name = "sprout-poc-variables"
-    }
+
+  subject_ref {
+    user_source = "bluechip"
+    kind        = "User"
+    name        = "test-user"
+  }
+
+  role_ref {
+    kind = "Role"
+    name = "developer"
   }
 }
 ```
