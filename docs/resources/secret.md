@@ -25,8 +25,8 @@ resource "airdrop_secret" "current" {
   type = "Opaque"
 
   data = {
-    username = "admin"
-    password = "s3cr3t"
+    username = "YWRtaW4="
+    password = "dGVzdA=="
   }
 }
 ```
