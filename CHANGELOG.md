@@ -1,2 +1,2 @@
 ## Changelog   
-* d2793ef28b4ea1ae6edf5b0926fed0ad97dfd379 fix: runneridtoken의 token 필드 수정
+* cacb50a06b9e4e50f00dfe4b6ef582962197555f feat: runneridtokenclaim 데이터소스 추가
