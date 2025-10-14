@@ -60,7 +60,6 @@ Read-Only:
 
 - `data` (List of Object) (see [below for nested schema](#nestedobjatt--items--data))
 - `metadata` (List of Object) (see [below for nested schema](#nestedobjatt--items--metadata))
-- `token` (String)
 
 <a id="nestedobjatt--items--data"></a>
 ### Nested Schema for `items.data`
