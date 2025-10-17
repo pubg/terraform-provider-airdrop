@@ -32,7 +32,10 @@ data "airdrop_secret" "current" {
 ### Read-Only
 
 - `data` (Map of String, Sensitive) Secret data
+- `data_json` (String, Sensitive) JSON encoded representation of the data field returned by the API.
 - `id` (String) The ID of this resource.
+- `string_data` (Map of String, Sensitive) Base64 decoded representation of the data field.
+- `string_data_json` (String, Sensitive) JSON encoded representation of the base64 decoded data field.
 - `type` (String) Secret type
 
 <a id="nestedblock--metadata"></a>
