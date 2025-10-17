@@ -33,6 +33,7 @@ data "airdrop_runneridtoken" "current" {
 
 - `data` (List of Object) Data contains issuer, jwks_endpoint and subject. (see [below for nested schema](#nestedatt--data))
 - `id` (String) The ID of this resource.
+- `spec` (List of Object) Spec contains issuer. (see [below for nested schema](#nestedatt--spec))
 
 <a id="nestedblock--metadata"></a>
 ### Nested Schema for `metadata`
@@ -70,3 +71,11 @@ Read-Only:
 - `issuer` (String)
 - `jwks_endpoint` (String)
 - `subject` (String)
+
+
+<a id="nestedatt--spec"></a>
+### Nested Schema for `spec`
+
+Read-Only:
+
+- `audience` (String)

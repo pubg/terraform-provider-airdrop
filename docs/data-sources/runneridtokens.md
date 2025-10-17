@@ -60,6 +60,7 @@ Read-Only:
 
 - `data` (List of Object) (see [below for nested schema](#nestedobjatt--items--data))
 - `metadata` (List of Object) (see [below for nested schema](#nestedobjatt--items--metadata))
+- `spec` (List of Object) (see [below for nested schema](#nestedobjatt--items--spec))
 
 <a id="nestedobjatt--items--data"></a>
 ### Nested Schema for `items.data`
@@ -83,3 +84,11 @@ Read-Only:
 - `namespace` (String)
 - `resource_version` (String)
 - `update_timestamp` (String)
+
+
+<a id="nestedobjatt--items--spec"></a>
+### Nested Schema for `items.spec`
+
+Read-Only:
+
+- `audience` (String)

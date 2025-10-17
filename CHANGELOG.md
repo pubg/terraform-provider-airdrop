@@ -1,2 +1,2 @@
 ## Changelog   
-* 0c29706b226a6b740502ab65dbab6fc440c43555 fix: secret docs 수정
+* e8c4531ab135de1a23772ad664171d2f5fcee6ba feat: RunnerIDToken에 spec.audience 추가

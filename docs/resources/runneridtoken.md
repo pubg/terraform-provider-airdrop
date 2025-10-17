@@ -21,6 +21,10 @@ resource "airdrop_runneridtoken" "current" {
       "app" = "test"
     }
   }
+
+  spec {
+    audience = "example-audience"
+  }
 }
 ```
 
@@ -30,6 +34,7 @@ resource "airdrop_runneridtoken" "current" {
 ### Required
 
 - `metadata` (Block List, Min: 1, Max: 1) (see [below for nested schema](#nestedblock--metadata))
+- `spec` (Block List, Min: 1, Max: 1) Spec contains issuer. (see [below for nested schema](#nestedblock--spec))
 
 ### Optional
 
@@ -58,6 +63,14 @@ Read-Only:
 - `creation_timestamp` (String) CreationTimestamp is a timestamp representing the server time when this object was created.
 - `resource_version` (String) ResourceVersion is an opaque value that changes on every update to a resource.
 - `update_timestamp` (String) UpdateTimestamp is a timestamp representing the server time when this object was last updated.
+
+
+<a id="nestedblock--spec"></a>
+### Nested Schema for `spec`
+
+Required:
+
+- `audience` (String) Audience for which the token will be issued.
 
 
 <a id="nestedblock--timeouts"></a>
