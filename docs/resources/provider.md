@@ -103,7 +103,7 @@ Required:
 
 Optional:
 
-- `arguments` (Map of String)
+- `arguments` (String) json encoded arguments
 - `version` (String)
 
 
@@ -117,7 +117,7 @@ Required:
 
 Optional:
 
-- `arguments` (Map of String)
+- `arguments` (String) json encoded arguments
 - `provider_ref` (String)
 
 

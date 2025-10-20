@@ -77,7 +77,7 @@ Read-Only:
 
 Read-Only:
 
-- `arguments` (Map of String)
+- `arguments` (String)
 - `source` (String)
 - `version` (String)
 
@@ -87,7 +87,7 @@ Read-Only:
 
 Read-Only:
 
-- `arguments` (Map of String)
+- `arguments` (String)
 - `label` (String)
 - `provider_ref` (String)
 - `type` (String)
