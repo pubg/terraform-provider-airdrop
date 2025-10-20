@@ -1,2 +1,2 @@
 ## Changelog   
-* e8c4531ab135de1a23772ad664171d2f5fcee6ba feat: RunnerIDToken에 spec.audience 추가
+* f0b172456fd78b35ae387014e322556cadf66440 feat: Provider 리소스 추가
