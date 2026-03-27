@@ -1,2 +1,2 @@
 ## Changelog   
-* 2e88c74f865cc227229ecc8293a4bab2410c8a37 fix: arcane-client-go 업데이트(1.12.1)
+* 85a7f82e3e1ccb168c982666f99a62591ba5c66d fix: SecretReveal의 string_data를 data에서 base64 디코딩하여 생성
