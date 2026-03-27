@@ -1,2 +1,2 @@
 ## Changelog   
-* a71aad31382a402199a8c1f3d2007308c7af8bee fix: SecretReveal에 필드 추가
+* 2e88c74f865cc227229ecc8293a4bab2410c8a37 fix: arcane-client-go 업데이트(1.12.1)
