@@ -1,2 +1,2 @@
 ## Changelog   
-* 92f552af46caa50854dfbfcdac399cc537880206 feat: SecretReveal 데이터소스 추가
+* a71aad31382a402199a8c1f3d2007308c7af8bee fix: SecretReveal에 필드 추가
