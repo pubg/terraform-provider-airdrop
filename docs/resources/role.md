@@ -27,6 +27,12 @@ resource "airdrop_role" "current" {
     resources  = ["pods", "services"]
     verbs      = ["get", "list", "watch"]
   }
+
+  # A command rule takes only api_groups and commands.
+  rules {
+    api_groups = ["workload.airdrop.pubg.io"]
+    commands   = ["stacks/validate"]
+  }
 }
 ```
 
@@ -69,16 +75,14 @@ Read-Only:
 <a id="nestedblock--rules"></a>
 ### Nested Schema for `rules`
 
-Required:
-
-- `verbs` (List of String) Verbs is a list of methods this role binding grants access to.
-
 Optional:
 
 - `api_groups` (List of String) APIGroup is the group for the resource being referenced.
+- `commands` (List of String) Commands is a list of commands this role binding grants access to, in the form `<resource>/<command>`. A rule with `commands` takes only `api_groups` besides it.
 - `non_resource_urls` (List of String) NonResourceURLs is a list of non-resource URLs this role binding grants access to.
 - `resource_names` (List of String) ResourceNames is a list of resource names this role binding grants access to.
 - `resources` (List of String) Resources is a list of resources this role binding grants access to.
+- `verbs` (List of String) Verbs is a list of methods this role binding grants access to. Required unless `commands` is set.
 
 
 <a id="nestedblock--timeouts"></a>

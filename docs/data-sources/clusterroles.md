@@ -80,6 +80,7 @@ Read-Only:
 Read-Only:
 
 - `api_groups` (List of String)
+- `commands` (List of String)
 - `non_resource_urls` (List of String)
 - `resource_names` (List of String)
 - `resources` (List of String)
