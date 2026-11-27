@@ -1,2 +1,3 @@
 ## Changelog   
-* e24dd31739d99ba4025a9c9adf9011c644f4e05e feat: [PDO-1311] airdrop_role, airdrop_clusterrole rule에 commands 추가 (!13)
+* cb566c6341710b2a80efd40d502c0aeb6af0f4ff feat: ephemeral airdrop_secretreveal 추가 (!14)   
+* d3b51447e78096968a3079b9bc45780d982aa743 feat: [PDO-1311] Stack을 관리하는 airdrop_stack resource 추가 (!9)
